@@ -10,7 +10,7 @@ import org.junit.jupiter.api.TestMethodOrder;
 
 
 
-@DisplayName("Тесты на email рассылку")
+
 public class SimpleTest {
 
 
@@ -30,6 +30,7 @@ public class SimpleTest {
             System.out.println("Hello^ World!");
         }
 
+        @Disabled ("421")
         @Test
         @Tags({
                 @Tag("SMOKE"),
